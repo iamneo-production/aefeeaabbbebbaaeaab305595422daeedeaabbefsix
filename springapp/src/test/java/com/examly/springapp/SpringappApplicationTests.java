@@ -38,7 +38,7 @@ class SpringappApplicationTests {
    void add() throws Exception {
 
 	String st = "{\"customerId\": 1000,\"customerName\": \"Demo\", \"age\": 30,\"mobile\":1234567890,\"billId\": 1001}";
-		mockMvc.perform(MockMvcRequestBuilders.post("/")
+		mockMvc.perform(MockMvcRequestBuilders.post("")
 			   .contentType(MediaType.APPLICATION_JSON)
 			   .content(st)
 			   .accept(MediaType.APPLICATION_JSON))
