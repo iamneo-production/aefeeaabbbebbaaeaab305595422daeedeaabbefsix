@@ -1,14 +1,14 @@
 -------------------------------------------------------------------------------
 Test set: com.examly.springapp.SpringappApplicationTests
 -------------------------------------------------------------------------------
-Tests run: 13, Failures: 1, Errors: 1, Skipped: 0, Time elapsed: 5.463 s <<< FAILURE! - in com.examly.springapp.SpringappApplicationTests
-testgetByID  Time elapsed: 0.18 s  <<< ERROR!
+Tests run: 13, Failures: 1, Errors: 1, Skipped: 0, Time elapsed: 5.782 s <<< FAILURE! - in com.examly.springapp.SpringappApplicationTests
+testgetByID  Time elapsed: 0.225 s  <<< ERROR!
 org.springframework.web.util.NestedServletException: Request processing failed; nested exception is java.util.NoSuchElementException: No value present
 	at com.examly.springapp.SpringappApplicationTests.testgetByID(SpringappApplicationTests.java:55)
 Caused by: java.util.NoSuchElementException: No value present
 	at com.examly.springapp.SpringappApplicationTests.testgetByID(SpringappApplicationTests.java:55)
 
-add  Time elapsed: 0.019 s  <<< FAILURE!
+add  Time elapsed: 0.004 s  <<< FAILURE!
 java.lang.AssertionError: Status expected:<200> but was:<405>
 	at com.examly.springapp.SpringappApplicationTests.add(SpringappApplicationTests.java:45)
 
